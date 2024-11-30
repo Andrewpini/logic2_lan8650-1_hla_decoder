@@ -1,0 +1,13 @@
+{
+  "name": "TC6 SPI Analyzer",
+  "apiVersion": "1.0.0",
+  "author": "Anders Storrø",
+  "version": "0.0.1",
+  "description": "Provides additional information Ethernet chunks, Control and Status messages in TC6 communication between host and MAC/PHY ",
+  "extensions": {
+    "TC6 SPI Analyzer": {
+      "type": "HighLevelAnalyzer",
+      "entryPoint": "HighLevelAnalyzer.Hla"
+    }
+  }
+}
