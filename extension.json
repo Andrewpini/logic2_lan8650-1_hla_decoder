@@ -1,11 +1,11 @@
 {
-  "name": "TC6 SPI Analyzer",
+  "name": "Microchip LAN8650/1 TC6 10BASE-T1S MAC-PHY Decoder",
   "apiVersion": "1.0.0",
   "author": "Anders Storrø",
   "version": "0.0.1",
-  "description": "Provides additional information Ethernet chunks, Control and Status messages in TC6 communication between host and MAC/PHY ",
+  "description": "Provides decoding of Microchip LAN8650/1 control and data messages. The decoding is based on the TC6 10BASE-T1S MAC-PHY specification from Open Alliance",
   "extensions": {
-    "TC6 SPI Analyzer": {
+    "LAN8650/1 Decoder": {
       "type": "HighLevelAnalyzer",
       "entryPoint": "HighLevelAnalyzer.Hla"
     }
